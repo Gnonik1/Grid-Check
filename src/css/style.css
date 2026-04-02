@@ -42,12 +42,12 @@ a {
   gap: 15px;
   grid-auto-rows: minmax(150px, auto);
   padding: 10px 50px 30px 50px;
-  /* grid-template-rows: repeat(5, 300px); */ სანამ ბოლომდე არ დავალაგე nthchild-ები, gridautorows-ც არ მუშაობდა, ამიტომ ისევ ზედა დავტოვე.
+  /* grid-template-rows: repeat(5, 300px); სანამ ბოლომდე არ დავალაგე nthchild-ები, gridautorows-ც არ მუშაობდა, ამიტომ ისევ ზედა დავტოვე. */
 }
 
 .item {
-  /* max-width: 300px; */ დიზაინს მიცვლიდა და წავშალე
-  /* min-height: 300px; */ არაფერს ცვლიდა და წავშალე
+  /* max-width: 300px; დიზაინს მიცვლიდა და წავშალე */
+  /* min-height: 300px; არაფერს ცვლიდა და წავშალე */
   height: 100%;
   font-size: 22px;
   font-weight: 500;
